@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import Welcome from '../pages/Welcome';
 
+
 const WelcomeContainer = () =>{
     const location = useLocation();
     const history = useHistory();

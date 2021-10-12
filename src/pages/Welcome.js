@@ -1,12 +1,13 @@
 import React from 'react';
 
+
 const Welcome = ({trash, trashItem, add, onChange, item, data, form, goBack}) =>(
     <div className="principal">
         <div className="text-center pt-5">
             <h2>Bienvenido {form.email}</h2>
         </div>
         <div className="text-center mt-4">
-            <button onClick={goBack} className="btn btn-success">Volver</button>
+ 
         </div>
         <div className="container mt-4">
             <form onSubmit={add}>
@@ -21,7 +22,14 @@ const Welcome = ({trash, trashItem, add, onChange, item, data, form, goBack}) =>
                     </div>
                 </div>
                 <div className="text-end mt-4">
-                    <button type="submit" className="btn btn-success">Añadir</button>
+                  <ul class="nav nav-pills nav-fill">
+                     <li class="nav-item">
+                        <button onClick={goBack} className="btn btn-dark">Volver</button>            
+                    </li>
+                    <li class="nav-item">
+                        <button type="submit" className="btn btn-dark">Añadir</button>
+                    </li>
+                    </ul>
                 </div>
             </form>
         </div>
