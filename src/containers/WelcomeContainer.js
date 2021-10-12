@@ -8,9 +8,9 @@ const WelcomeContainer = () =>{
     const [form, setForm] = useState({});
     const [item, setItem] = useState({id:'', name:''});
     const [data, setData] = useState([
-        {id:"004", name:"Oscar Juarez"},
-        {id:"002", name:"Alex Fuentes"},
-        {id:"001", name:"Joel Villa"}
+        {id:"01", name:"Oscar Hidalgo"},
+        {id:"02", name:"El michi"},
+        {id:"03", name:"Aqui no hay nadie"}
     ]);
 
     useEffect(
