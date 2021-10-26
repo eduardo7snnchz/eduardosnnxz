@@ -2,17 +2,21 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import IndexContainer from '../containers/IndexContainer';
 import WelcomeContainer from '../containers/WelcomeContainer';
+import RFCContainer from '../containers/RFCContainer';
 
 const App = () =>{
     return(
         <BrowserRouter>
             <Switch>
                 <Route exact path="/">
-                    <IndexContainer />
-                </Route>
+                        <IndexContainer />
+                    </Route>
                 <Route exact path="/welcome">
-                    <WelcomeContainer />
-                </Route>
+                        <WelcomeContainer />
+                    </Route>
+                <Route exact path="/rfc">
+                        <RFCContainer/>   
+                    </Route>
                 <Route>
                     <div className="container mt-5 text-center">
                         <h1>404 Not found</h1>

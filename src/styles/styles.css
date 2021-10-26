@@ -27,3 +27,16 @@
     padding: 70px 20px;
     background-color: var(--second);
 }
+
+.form{
+    width: 100%;
+    max-width: 500px;
+}
+
+.txt-rfc{
+letter-spacing: 10px;
+}
+
+label{
+    margin-bottom: 5px;
+}
