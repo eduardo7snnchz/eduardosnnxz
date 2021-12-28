@@ -1,11 +1,39 @@
 import React from 'react';
 
 
+
 const Welcome = ({trash, trashItem, add, onChange, item, data, form, goBack}) =>(
     <div className="principal">
         <div className="text-center pt-5">
             <h2>Bienvenido {form.email}</h2>
         </div>
+
+        
+            <nav className="navbar navbar-expand-lg navbar-light" >
+   <div className="collapse navbar-collapse" id="navbarNav">
+  <ul className="navbar-nav">
+    <li className="nav-item active">
+      <button className="btn btn-success" href="/welcome">Home <span className="sr-only">(current)</span></button>
+    </li>
+    <li className="nav-item active">
+      <a className="btn btn-success" href="/rfc">RFC</a>
+    </li>
+    <li className="nav-item active">
+      <a className="btn btn-success" href="/Domicilio">Domicilio</a>
+    </li>
+    <li className="nav-item active">
+      <a className="btn btn-success" href="/Api">API</a>
+    </li>
+    <li className="nav-item active">
+      <a className="btn btn-success" href="/curso">Curso</a>
+    </li>
+  </ul>
+</div>
+
+            </nav>
+        
+
+
         <div className="text-center mt-4">
  
         </div>
