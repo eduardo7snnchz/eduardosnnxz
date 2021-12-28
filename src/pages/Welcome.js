@@ -13,7 +13,7 @@ const Welcome = ({trash, trashItem, add, onChange, item, data, form, goBack}) =>
    <div className="collapse navbar-collapse" id="navbarNav">
   <ul className="navbar-nav">
     <li className="nav-item active">
-      <button className="btn btn-success" href="/welcome">Home <span className="sr-only">(current)</span></button>
+      <a className="btn btn-success" href="/welcome">Home <span className="sr-only">(current)</span></a>
     </li>
     <li className="nav-item active">
       <a className="btn btn-success" href="/rfc">RFC</a>

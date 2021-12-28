@@ -4,6 +4,7 @@ import Logo from '../images/logo.png';
 const Index = ({form, onChange, onSubmit,msg}) => (
     <div className="principal">
         <h1>Oscar Eduardo Sanchez Hidalgo - 2018631401</h1>
+        <a className="btn btn-success" href="https://github.com/eduardo7snnchz/eduardosnnxz">Github Code</a>
         <div className="container-form">
             
             <form onSubmit={onSubmit} className="form-react">
